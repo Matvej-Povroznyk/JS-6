@@ -25,14 +25,12 @@ const iconStyle =
 
 console.log("%cTASK%c1", labelStyle, iconStyle);
 
+let n = 0;
 
-  let n = 0;
-
-  while (n <= 10) {
-    console.log(n);
-    n++;
-  }
-
+while (n <= 10) {
+  console.log(n);
+  n++;
+}
 
 /*
  * ==========
@@ -42,15 +40,14 @@ console.log("%cTASK%c1", labelStyle, iconStyle);
  * Вивести в консоль всі парні числа від 2 до 20 за допомогою циклу for. Якщо число парне, пропустити ого за допомогою continue.
  */
 
+console.log("%cTASK%c2", labelStyle, iconStyle);
 
-  console.log("%cTASK%c2", labelStyle, iconStyle);
-
-  for (let i = 2; i <= 20; i++) {
-    if (i % 2 !== 0) {
-      continue;
-    }
-    console.log(i);
+for (let i = 2; i <= 20; i++) {
+  if (i % 2 !== 0) {
+    continue;
   }
+  console.log(i);
+}
 
 /*
  * ==========
@@ -61,12 +58,10 @@ console.log("%cTASK%c1", labelStyle, iconStyle);
 
 console.log("%cTASK%c3", labelStyle, iconStyle);
 
-
-  const number = 7;
-  for (let i = 1; i <= 10; i++) {
-    console.log(`${number}x${i}=${number * i}`);
-  }
-
+const number = 7;
+for (let i = 1; i <= 10; i++) {
+  console.log(`${number}x${i}=${number * i}`);
+}
 
 /*
  * ==========
@@ -77,15 +72,13 @@ console.log("%cTASK%c3", labelStyle, iconStyle);
 
 console.log("%cTASK%c4", labelStyle, iconStyle);
 
-
-  const n2 = 15;
-  for (let i = 0; i <= n2; i++) {
-    if (i >= n2) {
-      break;
-    }
-    console.log(i);
+const n2 = 15;
+for (let i = 0; i <= n2; i++) {
+  if (i >= n2) {
+    break;
   }
-
+  console.log(i);
+}
 
 /*
  * ==========
@@ -96,17 +89,15 @@ console.log("%cTASK%c4", labelStyle, iconStyle);
 
 console.log("%cTASK%c5", labelStyle, iconStyle);
 
-
-  let i = 1;
-  while (i <= 20) {
-    if (i % 3 === 0) {
-      i++;
-      continue;
-    }
-    console.log(i);
+let i = 1;
+while (i <= 20) {
+  if (i % 3 === 0) {
     i++;
+    continue;
   }
-
+  console.log(i);
+  i++;
+}
 
 /*
  * ===============
